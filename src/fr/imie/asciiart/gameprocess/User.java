@@ -33,8 +33,7 @@ public class User {
 		
 	public static void main(String[] args) {	
 		User user = new User();
-		
-		System.out.println(user.asciiTab);
+		System.out.println(user.text);
 //		System.out.println(user);
 	
 	}
