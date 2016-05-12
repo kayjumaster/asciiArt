@@ -1,8 +1,8 @@
-package fr.imie.asciiart.main.core;
+package fr.imie.asciiart.main;
 
-public class AsciiArt {
+public class Main {
 
-	public AsciiArt() {
+	public Main() {
 		// TODO Auto-generated constructor stub
 	}
 
