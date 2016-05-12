@@ -1,12 +1,10 @@
 package fr.imie.asciiart.gameprocess;
-
 import java.util.ArrayList;
-
 
 public class Game extends User {
 
 
-	static String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ?";
+	static String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	public Game(int height, int width, int numbChar) {
 
@@ -26,10 +24,10 @@ public class Game extends User {
 			}
 		}
 
-		// print result
-		for (int j = 0; j < height; j++) {
-			for (int k = 0; k < indexes.size(); k++) {
-				System.out.print(asciiTab.get(j).substring(indexes.get(k) * width, indexes.get(k) * width + width));
+		// Affichage du résultat
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < indexes.size(); j++) {
+				System.out.print(asciiTab.get(i).substring(indexes.get(j) * width, indexes.get(j) * width + width));
 			}
 			System.out.println();
 		}
