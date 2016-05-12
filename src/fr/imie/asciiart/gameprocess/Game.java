@@ -1,14 +1,12 @@
 package fr.imie.asciiart.gameprocess;
+
 import java.util.ArrayList;
 
 public class Game extends User {
 
-
 	static String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	public Game(int height, int width, int numbChar) {
-
-
 
 		// find the necessary indexes of letters
 		ArrayList<Integer> indexes = new ArrayList<Integer>();
@@ -32,5 +30,9 @@ public class Game extends User {
 			System.out.println();
 		}
 		scan.close();
+	}
+
+	public static void main(String[] args) {
+
 	}
 }
