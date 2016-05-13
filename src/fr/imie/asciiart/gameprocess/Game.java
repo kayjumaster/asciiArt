@@ -2,11 +2,13 @@ package fr.imie.asciiart.gameprocess;
 
 import java.util.ArrayList;
 
+import fr.imie.asciiart.entity.User;
+
 public class Game extends User {
 
 	static String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	public Game(int height, int width) {
+	public Game(int height, int width, String lettre) {
 
 // find the necessary indexes of letters
 		ArrayList<Integer> indexes = new ArrayList<Integer>();
