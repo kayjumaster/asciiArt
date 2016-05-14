@@ -10,6 +10,8 @@ public class AsciiBase {
     protected static int width;
     protected ArrayList<String> letter1;
     protected ArrayList<String> letter2;
+    
+    
 	public char getName() {
 		return name;
 	}
